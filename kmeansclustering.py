@@ -149,7 +149,7 @@ if __name__ == "__main__":
                         default='./Brisbane_CityBike.json')
     parser.add_argument("--output", type=str, help="path to the outputfile",
                         default="./result.png")
-    parser.add_argument("--kmeans", type=int, help="numbers of clusters",
+    parser.add_argument("--kmeans", type=int, help="number of clusters",
                         default=3)
 
 
